@@ -1,0 +1,34 @@
+/* ================================================================= 
+
+WAR OF SHAPES CHANGELOG v1.2
+
+====================================================================*/
+
+General
+	* fixed Firefox audio issues
+	* fixed negative map issues with Firefox
+
+/* ================================================================= 
+
+WAR OF SHAPES CHANGELOG v1.1
+
+====================================================================*/
+
+Game	
+	* now lose points only when AI is dashing
+	* changed sound when AI is in OuterRing
+	* added support for resizing browser window
+
+Player
+	* changed OuterRing to be a shield to repel AIs
+		* removed burning effect of OuterRing
+		* now AI is slowed and attempts to leave the ring
+	* changed dash particle color to match player
+	* removed white effect when dashing
+	* removed teleport spell, changed to activate shield
+AI
+	* added ability to dash, separate cooldown from movement
+	* removed OuterRing
+	* changed particle color for AI death
+	* increased likelihood of pausing movement
+	* changed random color algorithm, less likely to get "invisible" AIs

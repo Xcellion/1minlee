@@ -1,0 +1,20 @@
+<!-- main landing page -->
+
+<html>
+	<head>
+		<title>1min</title>
+		<link rel="stylesheet" href="/css/style_base.css" type="text/css" />
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width">
+	</head>
+
+	<body>
+	
+		<div class="center" id="page_content">
+			<div class="content">
+				<h1 style="margin-top: 200px">The page you're looking for does not exist!</h1>
+				<h1 style="margin-top: 50px">Press <a href="http://www.1minlee.com">here</a> to return to the main page or press the "back" button on your browser.</h1>
+			</div>
+	</body>
+</html>

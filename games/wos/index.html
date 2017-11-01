@@ -1,0 +1,48 @@
+<!-- War of Shapes, a JavaScript project -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<title>War of Shapes</title>
+		<link rel="stylesheet" href="shapes.css" type="text/css" />
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">	
+		<script src="objects/variables.js"></script>
+		<script src="objects/shapes.js"></script>
+		<script src="objects/map.js"></script>
+		<script src="objects/player.js"></script>
+		<script src="objects/camera.js"></script>
+		<script src="objects/ai.js"></script>
+		<script src="objects/particles.js"></script>
+		<script src="objects/buttons.js"></script>
+		
+		<audio autoplay loop>
+			<source type="audio/mpeg" src="sounds/music.mp3">
+		</audio>
+		<audio preload="true" id="button">
+			<source type="audio/wav" src="sounds/button.wav" />
+		</audio>
+		<audio preload="true" id="teleport">
+			<source type="audio/mpeg" src="sounds/teleport.mp3" />
+		</audio>
+		<audio preload="true" id="dash">
+			<source type="audio/wav" src="sounds/dash.wav" />
+		</audio>
+		<audio preload="true" id="crash">
+			<source type="audio/wav" src="sounds/crash.wav" />
+		</audio>
+		<audio preload="true" id="die">
+			<source type="audio/wav" src="sounds/die.wav" />
+		</audio>
+		<audio preload="true" id="dying">
+			<source type="audio/wav" src="sounds/dying.wav" />
+		</audio>
+
+		
+	</head>
+	<body>
+		<canvas tabindex="1" id="canvas"></canvas>
+		<script src="game.js"></script>
+	</body>
+</html>
