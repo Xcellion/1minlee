@@ -6,6 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link rel="stylesheet" type="text/css" href="./css/min/portfolio.min.css" />
+  <meta name="theme-color" content="#222222"/>
   <script src="https://use.fontawesome.com/00df4d5dec.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 </head>
@@ -58,10 +59,13 @@
         <div class="column is-9">
           <div class="content">
             <p>
-              This is my personal website that documents some of the projects I've done over the years.
+              Self-taught web developer and part-time entrepreneur. Lover of games and all things tech.
             </p>
-            <p>
-              <strong>Languages</strong>:  English (Fluent), Korean (Native), Chinese (Proficient), Japanese (Conversational)
+            <p class="is-hidden-mobile">
+              <strong>Languages</strong>: English (Fluent), Korean (Native), Chinese (Proficient), Japanese (Conversational)
+            </p>
+            <p class="is-hidden-desktop">
+              <strong>Languages</strong>: <span alt="English">🇬🇧</span>, <span alt="Korean">🇰🇷</span>, <span alt="Chinese">🇨🇳</span>, <span alt="Japanese">🇯🇵</span>
             </p>
             <p>
               <strong>Interests</strong>: Keyboard Shortcuts, Ping Pong, Beat-boxing, Cooking, Swimming, Cycling, Changelogs, DOTA2
@@ -74,6 +78,7 @@
               <span class="tag is-small is-red">CSS</span>
               <span class="tag is-small is-red">MySQL</span>
               <span class="tag is-small is-red">Unity</span>
+              <span class="tag is-small is-red">C#</span>
               <span class="tag is-small is-red">PHP</span>
               <span class="tag is-small is-red">Nginx</span>
               <span class="tag is-small is-red"><a class="is-white" href="https://openresty.org/en/">Openresty</a></span>
@@ -91,8 +96,8 @@
         <div class="column is-9">
           <div class="content">
             <h3>
-              <strong>DomaHub</strong>
               <a href="https://www.domahub.com/" target="_blank" rel="noopener" class="icon is-medium">
+                <strong>DomaHub</strong>
                 <i class="fa fa-external-link"></i>
               </a>
             </h3>
@@ -111,8 +116,8 @@
           </div>
           <div class="content">
             <h3>
-              <strong>Citrix</strong>
               <a href="https://www.citrix.com/" target="_blank" rel="noopener" class="icon is-medium">
+                <strong>Citrix</strong>
                 <i class="fa fa-external-link"></i>
               </a>
             </h3>
@@ -137,8 +142,8 @@
         <div class="column is-9">
           <div class="content">
             <h3>
-              <strong>4orner</strong>
               <a href="https://phaser-wos.herokuapp.com" class="icon is-medium">
+                <strong>4orner</strong>
                 <i class="fa fa-external-link"></i>
               </a>
             </h3>
@@ -146,15 +151,17 @@
               A game of color and collecting balls.
             </p>
             <div class="row">
-              <span class="tag is-small is-red">JavaScript</span>
               <span class="tag is-small is-red">Node.js</span>
+              <span class="tag is-small is-red">JavaScript</span>
               <span class="tag is-small is-red"><a class="is-white" href="http://phaser.io/">Phaser</a></span>
+              <span class="tag is-small is-red">HTML</span>
+              <span class="tag is-small is-red">CSS</span>
             </div>
           </div>
           <div class="content">
             <h3>
-              <strong>4orner3D</strong>
               <a href="/games/4orner3d/" class="icon is-medium">
+                <strong>4orner3D</strong>
                 <i class="fa fa-external-link"></i>
               </a>
             </h3>
@@ -163,12 +170,13 @@
             </p>
             <div class="row">
               <span class="tag is-small is-red">Unity</span>
+              <span class="tag is-small is-red">C#</span>
             </div>
           </div>
           <div class="content">
             <h3>
-              <strong>War of Shapes (Single player)</strong>
               <a href="/games/wos/" class="icon is-medium">
+                <strong>War of Shapes (Single player)</strong>
                 <i class="fa fa-external-link"></i>
               </a>
             </h3>
@@ -177,12 +185,14 @@
             </p>
             <div class="row">
               <span class="tag is-small is-red">JavaScript</span>
+              <span class="tag is-small is-red">HTML</span>
+              <span class="tag is-small is-red">CSS</span>
             </div>
           </div>
           <div class="content">
             <h3>
-              <strong>War of Shapes (Multi player)</strong>
               <a href="https://wos.herokuapp.com/" class="icon is-medium">
+                <strong>War of Shapes (Multi player)</strong>
                 <i class="fa fa-external-link"></i>
               </a>
             </h3>
@@ -193,6 +203,8 @@
               <span class="tag is-small is-red">Node.js</span>
               <span class="tag is-small is-red">JavaScript</span>
               <span class="tag is-small is-red">Socket.io</span>
+              <span class="tag is-small is-red">HTML</span>
+              <span class="tag is-small is-red">CSS</span>
             </div>
           </div>
         </div>
@@ -209,7 +221,13 @@
         </div>
       </div>
       <footer class="footer">
-
+        <div class="footer-center">
+          <div class="content">
+            <p>
+              Built on <a class="is-red" tabindex="0" target="_blank" rel="noopener" href="https://npmjs.com/package/resume-template" class="is-link">resume-template</a> (made by my <a href='https://1qlee.com' class="is-red">brother</a>!).
+            </p>
+          </div>
+        </div>
       </footer>
     </section>
   </main>
