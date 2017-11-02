@@ -1,0 +1,3 @@
+# 1min Robots txt
+
+User-agent: *
